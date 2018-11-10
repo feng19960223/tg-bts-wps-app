@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <include layout="@layout/tg_common_view_title_bar" />
+
+    <com.turingoal.common.android.ui.layout.TgTitleContextLinearLayout
+        android:id="@+id/tclCodeNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextStr="@string/string_material_detail_coding" />
+
+    <com.turingoal.common.android.ui.layout.TgTitleContextLinearLayout
+        android:id="@+id/tclTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextStr="@string/string_material_detail_name" />
+
+    <com.turingoal.common.android.ui.layout.TgTitleContextLinearLayout
+        android:id="@+id/tclMaterialType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextStr="@string/string_material_detail_type" />
+
+    <com.turingoal.common.android.ui.layout.TgTitleContextLinearLayout
+        android:id="@+id/tclMaterialSpecification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextStr="@string/string_material_detail_specification" />
+
+    <com.turingoal.common.android.ui.layout.TgTitleContextLinearLayout
+        android:id="@+id/tclMaterialUnit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextStr="@string/string_material_detail_unit" />
+</LinearLayout>

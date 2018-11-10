@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_layout_top_bar" />
+
+    <com.turingoal.common.android.ui.layout.TgTitleContextLinearLayout
+        android:id="@+id/tclCreateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:titleTextStr="@string/string_material_audit_detail_create_time" />
+
+    <com.turingoal.common.android.ui.layout.TgTitleContextLinearLayout
+        android:id="@+id/tclCreateName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:titleTextStr="@string/string_material_audit_detail_create_name" />
+
+    <com.turingoal.common.android.ui.layout.TgTitleContextLinearLayout
+        android:id="@+id/tclState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:titleTextStr="@string/string_material_audit_detail_audit_state" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

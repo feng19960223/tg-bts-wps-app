@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_layout_top_bar" />
+
+    <include layout="@layout/common_layout_logo_and_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginEnd="@dimen/dp_10"
+        android:layout_marginStart="@dimen/dp_10"
+        android:layout_weight="3.5"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48">
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp_15"
+                android:text="旧  密  码"
+                android:textColor="#43596B"
+                android:textSize="@dimen/sp_17" />
+
+            <View
+                android:id="@+id/user_line"
+                android:layout_width="1px"
+                android:layout_height="@dimen/dp_8"
+                android:layout_alignBottom="@id/user_name"
+                android:layout_alignTop="@id/user_name"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp_8"
+                android:layout_toEndOf="@id/user_name"
+                android:background="#D8D8D8" />
+
+            <EditText
+                android:id="@+id/et_updata_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/user_name"
+                android:layout_alignTop="@id/user_name"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp_8"
+                android:layout_toEndOf="@id/user_line"
+                android:background="@null"
+                android:digits="@string/ruleAZaz09"
+                android:gravity="start|bottom"
+                android:hint="请输入旧密码"
+                android:inputType="textPassword"
+                android:textColorHint="#969494"
+                android:textSize="@dimen/sp_17" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="@dimen/dp_10"
+                android:layout_marginStart="@dimen/dp_10"
+                android:background="#C4CFD9" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48">
+
+            <TextView
+                android:id="@+id/tv_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp_15"
+                android:text="新  密  码"
+                android:textColor="#43596B"
+                android:textSize="@dimen/sp_17" />
+
+            <View
+                android:id="@+id/pass_line"
+                android:layout_width="1px"
+                android:layout_height="@dimen/dp_8"
+                android:layout_alignBottom="@id/tv_pass"
+                android:layout_alignTop="@id/tv_pass"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp_8"
+                android:layout_toEndOf="@id/tv_pass"
+                android:background="#D8D8D8" />
+
+            <EditText
+                android:id="@+id/et_updata_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/tv_pass"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp_8"
+                android:layout_toEndOf="@id/pass_line"
+                android:background="@null"
+                android:digits="@string/ruleAZaz09"
+                android:gravity="start|bottom"
+                android:hint="请输入新密码"
+                android:inputType="textPassword"
+                android:textColorHint="#969494"
+                android:textSize="@dimen/sp_17" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="@dimen/dp_10"
+                android:layout_marginStart="@dimen/dp_10"
+                android:background="#C4CFD9" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48">
+
+            <TextView
+                android:id="@+id/tv_new_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp_15"
+                android:text="确认密码"
+                android:textColor="#43596B"
+                android:textSize="@dimen/sp_17" />
+
+            <View
+                android:id="@+id/new_pass_line"
+                android:layout_width="1px"
+                android:layout_height="@dimen/dp_8"
+                android:layout_alignBottom="@id/tv_new_pass"
+                android:layout_alignTop="@id/tv_new_pass"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp_8"
+                android:layout_toEndOf="@id/tv_new_pass"
+                android:background="#C4CFD9" />
+
+            <EditText
+                android:id="@+id/et_updata_new_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/tv_new_pass"
+                android:layout_alignTop="@id/tv_new_pass"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp_8"
+                android:layout_toEndOf="@id/new_pass_line"
+                android:background="@null"
+                android:digits="@string/ruleAZaz09"
+                android:gravity="start|bottom"
+                android:hint="请再次确认密码"
+                android:inputType="textPassword"
+                android:textColorHint="#969494"
+                android:textSize="@dimen/sp_17" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="@dimen/dp_10"
+                android:layout_marginStart="@dimen/dp_10"
+                android:background="#C4CFD9" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_change_password_commit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dp_10"
+            android:layout_marginStart="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_50"
+            android:background="@drawable/common_btn_blue_style"
+            android:text="@string/label_confirm"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/sp_18" />
+
+    </LinearLayout>
+</LinearLayout>

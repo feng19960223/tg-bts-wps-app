@@ -1,0 +1,172 @@
+<resources>
+
+    <!-- title -->
+    <string name="title_breakdown">故障处理</string>
+    <string name="title_breakdown_report">故障提报</string>
+    <string name="title_breakdown_detail">故障详情</string>
+    <string name="title_material">物料领用</string>
+    <string name="title_material_add">物料</string>
+    <string name="title_material_detail">物料详情</string>
+    <string name="title_material_list">添加物料</string>
+    <string name="title_material_template_list">模板</string>
+    <string name="title_material_template_detail">模板详情</string>
+    <string name="title_material_audit_list">审核记录</string>
+    <string name="title_material_audit">审核</string>
+    <string name="title_material_audit_detail">审核详情</string>
+    <!-- 物料购物车 -->
+    <string name="string_material_clear">清空</string>
+    <string name="string_material_select">选择物料</string>
+    <string name="string_material_import">导入模板</string>
+    <string name="string_material_usage">确定领料</string>
+    <string name="string_material_success_hint">物料提交成功</string>
+    <!-- 添加物料商品 -->
+    <string name="string_material_add_coding">物料编码</string>
+    <string name="string_material_add_name">物料名称</string>
+    <string name="string_material_add_type">物料类型</string>
+    <string name="string_material_add_specification">物料规格</string>
+    <string name="string_material_add_unit">物料单位</string>
+    <string name="string_material_add_num">数量</string>
+    <string name="string_material_add">加入列表</string>
+    <string name="string_material_add_success_hint">物料添加成功</string>
+    <!-- 物料详情 -->
+    <string name="string_material_detail_coding">物料编码</string>
+    <string name="string_material_detail_name">物料名称</string>
+    <string name="string_material_detail_type">物料类型</string>
+    <string name="string_material_detail_specification">物料规格</string>
+    <string name="string_material_detail_unit">物料单位</string>
+    <!-- 物料选择 -->
+    <string name="string_material_list_search_hint">搜索</string>
+    <string name="string_material_list_success_hint">物料添加成功</string>
+    <!-- 模板选择 -->
+    <string name="string_material_template_list_search_hint">搜索</string>
+    <string name="string_material_template_list_success_hint">使用模板成功</string>
+    <!-- 模板详情 -->
+    <string name="string_material_template_detail_use">使用模板</string>
+    <string name="string_material_template_detail_success_hint">使用模板成功</string>
+
+    <!-- 物料审核 -->
+    <string name="string_material_audit_create_time">创建时间</string>
+    <string name="string_material_audit_create_name">创建人员</string>
+    <string name="string_material_audit_agree">同意</string>
+    <string name="string_material_audit_disagree">驳回</string>
+    <string name="string_material_audit_idea_hint">意见</string>
+    <string name="string_material_audit">确定审核</string>
+    <string name="string_material_audit_success_hint">审核提交成功</string>
+    <string name="stirng_material_audit_no_save_hint">数据没有保存，是否返回？</string>
+    <string name="stirng_material_audit_no_idea_hint">请填写审核意见！</string>
+    <!-- 物料审核详情 -->
+    <string name="string_material_audit_detail_create_time">创建时间</string>
+    <string name="string_material_audit_detail_create_name">创建人员</string>
+    <string name="string_material_audit_detail_audit_time">审核时间</string>
+    <string name="string_material_audit_detail_audit_name">审核人员</string>
+    <string name="string_material_audit_detail_audit_state">审核状态</string>
+    <string name="string_material_audit_detail_audit_idea">审核意见</string>
+    <!-- 故障提报 -->
+    <string name="string_breakdown_report_discovery_time">发现时间：</string>
+    <string name="string_breakdown_report_arrive_time">入库时间：</string>
+    <string name="string_breakdown_report_train_set_model_train_set_length_type">故障车型：</string>
+    <string name="string_breakdown_report_track_num_row_num">故障股道：</string>
+    <string name="string_breakdown_report_train_set_trips">故障车次：</string>
+    <string name="string_breakdown_report_train_set_code_num">故障车组：</string>
+    <string name="string_breakdown_report_source">信息来源：</string>
+    <string name="string_breakdown_report_system_type">故障类型：</string>
+    <string name="string_breakdown_report_pattern">故障模式：</string>
+    <string name="string_breakdown_report_code">故障代码：</string>
+    <string name="string_breakdown_report_code_hint">代码</string>
+    <string name="string_breakdown_report_carriage">故障车厢：</string>
+    <string name="string_breakdown_report_discovery_desc">问题描述：</string>
+    <string name="string_breakdown_report">确定提报</string>
+    <string name="stirng_breakdown_report_no_save_hint">数据没有保存，是否返回？</string>
+    <string name="string_breakdown_report_confirm_hint">确定要提报问题吗?</string>
+    <string name="string_breakdown_report_no_code_hint">请输入故障代码</string>
+    <string name="string_breakdown_report_no_carriage_hint">请选择故障车厢</string>
+    <string name="string_breakdown_report_no_discovery_desc_hint">请填写问题描述</string>
+    <string name="string_breakdown_report_add_success">故障提报成功!</string>
+
+    <!-- 故障详情 -->
+    <string name="string_breakdown_detail_arrive_time">创建时间：</string>
+    <string name="string_breakdown_detail_train_set_model_train_set_length_type">故障车型：</string>
+    <string name="string_breakdown_detail_train_set_trips">故障车次 ：</string>
+    <string name="string_breakdown_detail_track_num_row_num">故障股道：</string>
+    <string name="string_breakdown_detail_source">信息来源：</string>
+    <string name="string_breakdown_detail_discovery_time">发现时间：</string>
+    <string name="string_breakdown_detail_discovery_realname">发现人员：</string>
+    <string name="string_breakdown_detail_train_set_code_num">故障车组：</string>
+    <string name="string_breakdown_detail_carriage">故障车厢：</string>
+    <string name="string_breakdown_detail_system_type">故障类型：</string>
+    <string name="string_breakdown_detail_pattern">故障模式：</string>
+    <string name="string_breakdown_detail_dispatch_time">派工时间：</string>
+    <string name="string_breakdown_detail_dispatch_realname">派工人员：</string>
+    <string name="string_breakdown_detail_dispatch_plan_start_time">计划开始：</string>
+    <string name="string_breakdown_detail_dispatch_plan_finish_time">计划结束：</string>
+    <string name="string_breakdown_detail_handling_result">故障状态：</string>
+    <string name="string_breakdown_detail_handling_realname">维修人员：</string>
+    <string name="string_breakdown_detail_start_time">维修开始：</string>
+    <string name="string_breakdown_detail_finish_time">维修结束：</string>
+    <string name="string_breakdown_detail_code">故障代码：</string>
+    <string name="string_breakdown_detail_discovery_desc">故障描述：</string>
+    <string name="string_breakdown_detail_handling_desc">处理描述：</string>
+
+    <string name="string_logoff_hint">是否退出当前用户？</string>
+
+    <!--*********************** base *****************************-->
+    <!--空白-->
+    <string name="common_blank"></string>
+    <!--空白-->
+    <string name="common_test">测试</string>
+    <!--软件名称-->
+    <string name="app_name">作业过程管理</string>
+    <!--软件 titel-->
+    <string name="app_title">作业过程管理</string>
+    <!--联系信息-->
+    <string name="contract_name">北京铁道工程机电技术研究所有限公司</string>
+    <!--联系邮箱-->
+    <string name="contract_email"></string>
+    <!-- 联系网址-->
+    <string name="contract_website">www.bjtds.com.cn</string>
+    <!-- 联系电话-->
+    <string name="contract_phone">01051852819</string>
+    <!-- 联系地址-->
+    <string name="contract_address">北京中关村科技园总部基地</string>
+    <!-- 再按一次退出程序-->
+    <string name="dbclick_exit">再按一次退出程序</string>
+    <!-- 登录信息过去-->
+    <string name="token_expired">登录信息已过期，请重新登录！</string>
+    <!--*********************** title *****************************-->
+    <!-- title 关于-->
+    <string name="title_about">关于系统</string>
+    <!-- title 帮助-->
+    <string name="title_help">系统帮助</string>
+    <!-- title 用户信息-->
+    <string name="title_self_info">用户信息</string>
+    <!--*********************** label *****************************-->
+    <!-- label 姓名-->
+    <string name="label_realname">姓名</string>
+    <!-- label 手机-->
+    <string name="label_cellphone">手机</string>
+    <!-- label email-->
+    <string name="label_email">邮箱</string>
+    <!-- label 修改密码-->
+    <string name="label_chanage_pass">修改密码</string>
+    <!-- label 登录-->
+    <string name="label_login">登  录</string>
+    <!-- label 确认-->
+    <string name="label_confirm">确  认</string>
+    <!-- label 确认-->
+    <string name="label_submit">提  交</string>
+    <!-- label 注销登录-->
+    <string name="label_logout">注销登录</string>
+    <!-- label IP-->
+    <string name="label_ip">IP</string>
+    <!-- label 端口-->
+    <string name="label_port">端口</string>
+    <!--*********************** hint *****************************-->
+    <!-- hint 请输入账号-->
+    <string name="hint_input_username">请输入账号</string>
+    <!-- hint 请输入密码-->
+    <string name="hint_input_password">请输入密码</string>
+    <!-- hint 请输入ip地址-->
+    <string name="hint_input_ip">请输入服务器IP地址</string>
+    <!-- hint 请输入服务器端口-->
+    <string name="hint_input_port">请输入服务器端口</string>
+</resources>

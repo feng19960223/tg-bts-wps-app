@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <!--bar右边显示清空列表按钮-->
+    <include layout="@layout/tg_common_view_title_bar" />
+
+    <com.turingoal.common.android.ui.layout.TgTitleContextLinearLayout
+        android:id="@+id/tclTrackSetCodeNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:contextTextStr="请先选择作业"
+        app:titleTextStr="车号" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/llBtnView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btnSelect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dp_10"
+            android:layout_marginStart="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@drawable/bg_btn_green_style"
+            android:gravity="center"
+            android:text="@string/string_material_select"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/sp_18" />
+
+        <Button
+            android:id="@+id/btnImport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dp_10"
+            android:layout_marginStart="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@drawable/bg_btn_orange_style"
+            android:gravity="center"
+            android:text="@string/string_material_import"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/sp_18" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_10"
+            android:background="@drawable/bg_btn_blue_style"
+            android:gravity="center"
+            android:text="@string/string_material_usage"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/sp_18" />
+    </LinearLayout>
+</LinearLayout>

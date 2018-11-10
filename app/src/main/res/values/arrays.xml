@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--系统分类-->
+    <string-array name="SystemType">
+        <item>车体及车端连接</item>
+        <item>转向架</item>
+        <item>高压牵引系统</item>
+        <item>辅助电气系统</item>
+        <item>供风及制动系统</item>
+        <item>网络及监控系统</item>
+        <item>旅客信息系统</item>
+        <item>车内环境控制系统</item>
+        <item>给排水及卫生系统</item>
+        <item>车内设施</item>
+        <item>驾驶设施</item>
+        <item>列控车裂设备</item>
+        <item>其他</item>
+    </string-array>
+    <!--故障来源-->
+    <string-array name="Source">
+        <item>乘务日志</item>
+        <item>地面检查</item>
+    </string-array>
+    <!--故障模式-->
+    <string-array name="Pattern">
+        <item>其他</item>
+    </string-array>
+
+    <!--股道列位-->
+    <string-array name="TrackRowNum">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

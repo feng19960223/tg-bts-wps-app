@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_date"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_48"
+    android:background="@drawable/common_background_color"
+    android:gravity="center"
+    android:text="2017年08月08日"
+    android:textColor="#FFFFFF"
+    android:textSize="@dimen/sp_16" />
+

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_layout_top_bar" />
+
+    <com.turingoal.common.android.ui.layout.TgTitleContextLinearLayout
+        android:id="@+id/tclCreateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:titleTextStr="@string/string_material_audit_create_time" />
+
+    <com.turingoal.common.android.ui.layout.TgTitleContextLinearLayout
+        android:id="@+id/tclCreateName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:titleTextStr="@string/string_material_audit_create_name" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#FFACABAB" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dp_20"
+            android:checked="true"
+            android:text="@string/string_material_audit_agree"
+            android:textColor="#00CC99" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_20"
+            android:text="@string/string_material_audit_disagree"
+            android:textColor="#DE5454" />
+    </RadioGroup>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingEnd="@dimen/dp_8"
+        android:paddingStart="@dimen/dp_8">
+        <!--问题描述-->
+        <EditText
+            android:id="@+id/etIdea"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_120"
+            android:background="#EDEFF4"
+            android:gravity="top"
+            android:hint="@string/string_material_audit_idea_hint"
+            android:maxLength="140"
+            android:padding="@dimen/dp_10"
+            android:textColor="#FF4E4E4E" />
+
+        <TextView
+            android:id="@+id/tvIdeaCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/dp_4"
+            android:gravity="end|bottom"
+            android:text="0/140"
+            android:textColor="#FF4E4E4E" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btnAudit"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_8"
+        android:background="@drawable/bg_btn_blue_style"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="@string/string_material_audit"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/sp_18" />
+</LinearLayout>

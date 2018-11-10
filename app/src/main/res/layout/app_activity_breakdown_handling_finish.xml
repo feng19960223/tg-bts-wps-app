@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_layout_top_bar" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.turingoal.common.android.ui.layout.TgTitleContextLinearLayout
+                android:id="@+id/tclStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:contextTextStr="处理中"
+                app:titleTextStr="@string/string_breakdown_detail_handling_result" />
+
+            <com.turingoal.common.android.ui.layout.TgTitleContextLinearLayout
+                android:id="@+id/tclArriveTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:titleTextStr="@string/string_breakdown_detail_arrive_time" />
+
+            <com.turingoal.common.android.ui.layout.TgTitleContextLinearLayout
+                android:id="@+id/tclSource"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:titleTextStr="@string/string_breakdown_detail_source" />
+
+            <com.turingoal.common.android.ui.layout.TgTitleContextLinearLayout
+                android:id="@+id/tclTrainFrequency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:titleTextStr="@string/string_breakdown_detail_train_set_trips" />
+
+            <com.turingoal.common.android.ui.layout.TgTitleContextLinearLayout
+                android:id="@+id/tclTrainSetCodeNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:titleTextStr="@string/string_breakdown_detail_train_set_code_num" />
+
+            <com.turingoal.common.android.ui.layout.TgTitleContextLinearLayout
+                android:id="@+id/tclSystemType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:titleTextStr="@string/string_breakdown_detail_system_type" />
+
+            <com.turingoal.common.android.ui.layout.TgTitleContextLinearLayout
+                android:id="@+id/tclPattern"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:titleTextStr="@string/string_breakdown_detail_pattern" />
+
+            <com.turingoal.common.android.ui.layout.TgTitleContextLinearLayout
+                android:id="@+id/tclCarriage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:titleTextStr="@string/string_breakdown_detail_carriage" />
+
+            <com.turingoal.common.android.ui.layout.TgTitleContextLinearLayout
+                android:id="@+id/tclCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:titleTextStr="@string/string_breakdown_detail_code" />
+
+            <com.turingoal.common.android.ui.layout.TgTitleContextLinearLayout
+                android:id="@+id/tclDiscoveryTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:titleTextStr="@string/string_breakdown_detail_discovery_time" />
+
+            <com.turingoal.common.android.ui.layout.TgTitleContextLinearLayout
+                android:id="@+id/tclDiscoveryRealname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:titleTextStr="@string/string_breakdown_detail_discovery_realname" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/dp_5"
+                android:paddingEnd="@dimen/dp_10"
+                android:paddingStart="@dimen/dp_10"
+                android:paddingTop="@dimen/dp_5"
+                android:text="@string/string_breakdown_detail_discovery_desc"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_15" />
+
+            <TextView
+                android:id="@+id/tvDiscoveryDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dp_5"
+                android:paddingEnd="@dimen/dp_10"
+                android:paddingStart="@dimen/dp_10" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#FFACABAB" />
+
+            <com.turingoal.common.android.ui.layout.TgTitleContextLinearLayout
+                android:id="@+id/tclDispatchTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:titleTextStr="@string/string_breakdown_detail_dispatch_time" />
+
+            <com.turingoal.common.android.ui.layout.TgTitleContextLinearLayout
+                android:id="@+id/tclDispatchRealname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:titleTextStr="@string/string_breakdown_detail_dispatch_realname" />
+
+            <com.turingoal.common.android.ui.layout.TgTitleContextLinearLayout
+                android:id="@+id/tclDispatchPlanStartTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:titleTextStr="@string/string_breakdown_detail_dispatch_plan_start_time" />
+
+            <com.turingoal.common.android.ui.layout.TgTitleContextLinearLayout
+                android:id="@+id/tclDispatchPlanFinishTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:titleTextStr="@string/string_breakdown_detail_dispatch_plan_finish_time" />
+
+            <com.turingoal.common.android.ui.layout.TgTitleContextLinearLayout
+                android:id="@+id/tclHandlingStartTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:titleTextStr="@string/string_breakdown_detail_start_time" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dp_10" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingEnd="@dimen/dp_8"
+        android:paddingStart="@dimen/dp_8"
+        android:paddingTop="@dimen/dp_8">
+        <!--问题描述-->
+        <EditText
+            android:id="@+id/etHandlingDesc"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_160"
+            android:background="#EDEFF4"
+            android:gravity="top"
+            android:hint="处理描述:"
+            android:maxLength="140"
+            android:padding="@dimen/dp_10"
+            android:textColor="#FF4E4E4E" />
+
+        <TextView
+            android:id="@+id/tvHandlingDescCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/dp_4"
+            android:gravity="end|bottom"
+            android:text="0/140"
+            android:textColor="#FF4E4E4E" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btnFinish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_8"
+        android:background="@drawable/common_btn_red_style"
+        android:gravity="center"
+        android:text="结束故障作业"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/sp_18" />
+</LinearLayout>

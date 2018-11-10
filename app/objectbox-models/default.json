@@ -1,0 +1,365 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "3:3630606061706298435",
+      "lastPropertyId": "18:7303537410272042220",
+      "name": "TrackDb",
+      "properties": [
+        {
+          "id": "1:7438183445662797537",
+          "name": "entityId"
+        },
+        {
+          "id": "2:3828542299686805853",
+          "name": "id"
+        },
+        {
+          "id": "3:3757236850915547925",
+          "name": "codeNum"
+        },
+        {
+          "id": "4:5959554397863094461",
+          "name": "workType"
+        },
+        {
+          "id": "5:8936017486671381398",
+          "name": "outType"
+        },
+        {
+          "id": "6:7310366342023594271",
+          "name": "lengthType"
+        },
+        {
+          "id": "7:9050324902244819325",
+          "name": "statusRow1"
+        },
+        {
+          "id": "8:5266004797275625084",
+          "name": "statusRow2"
+        },
+        {
+          "id": "9:5022927435784215867",
+          "name": "trainSetCodeNumRow1"
+        },
+        {
+          "id": "10:5591266843543289654",
+          "name": "trainSetCodeNumRow2"
+        },
+        {
+          "id": "11:6336213652733592224",
+          "name": "arriveTimeRow1"
+        },
+        {
+          "id": "12:6668673230971818224",
+          "name": "arriveTimeRow2"
+        },
+        {
+          "id": "13:2365574929170098716",
+          "name": "outboundTimeRow1"
+        },
+        {
+          "id": "14:6863963422371758723",
+          "name": "outboundTimeRow2"
+        },
+        {
+          "id": "15:4706536868363081086",
+          "name": "trainSetLengthTypeRow2"
+        },
+        {
+          "id": "16:437766217327629826",
+          "name": "description"
+        },
+        {
+          "id": "17:5881812831804184287",
+          "name": "sortOrder"
+        },
+        {
+          "id": "18:7303537410272042220",
+          "name": "enabled"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:3681500115786933149",
+      "lastPropertyId": "11:255151620146378663",
+      "name": "TrainSetDb",
+      "properties": [
+        {
+          "id": "1:6940354269427517694",
+          "name": "entityId"
+        },
+        {
+          "id": "2:1500977332834588876",
+          "name": "id"
+        },
+        {
+          "id": "3:1118524268979859004",
+          "name": "codeNum"
+        },
+        {
+          "id": "4:9205124799787610032",
+          "name": "trainSetType"
+        },
+        {
+          "id": "5:6005881346082896631",
+          "name": "trainSetModel"
+        },
+        {
+          "id": "6:2788635506347192923",
+          "name": "trainSetLengthType"
+        },
+        {
+          "id": "7:5769483335299801268",
+          "name": "trainSetStaffType"
+        },
+        {
+          "id": "8:9148527828518921095",
+          "name": "productionDate"
+        },
+        {
+          "id": "9:7814377619975971795",
+          "name": "description"
+        },
+        {
+          "id": "10:2492925916168337577",
+          "name": "sortOrder"
+        },
+        {
+          "id": "11:255151620146378663",
+          "name": "enabled"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "5:458469986612522922",
+      "lastPropertyId": "18:413498478404813713",
+      "name": "WorkConfigDb",
+      "properties": [
+        {
+          "id": "1:6414187708413285142",
+          "name": "entityId"
+        },
+        {
+          "id": "2:7584960753537642918",
+          "name": "id"
+        },
+        {
+          "id": "3:8234218220382449279",
+          "name": "maintenanceTask"
+        },
+        {
+          "id": "4:6876026671053396383",
+          "name": "maintenanceTaskType"
+        },
+        {
+          "id": "5:1398980944681827561",
+          "name": "trainSetModel"
+        },
+        {
+          "id": "6:8042910924506887647",
+          "name": "workTeam"
+        },
+        {
+          "id": "7:6800073588782052553",
+          "name": "workNum"
+        },
+        {
+          "id": "8:8113138235568377714",
+          "name": "workItem"
+        },
+        {
+          "id": "9:5086714710912242128",
+          "name": "workDesc"
+        },
+        {
+          "id": "10:6536289973577825133",
+          "name": "carriage"
+        },
+        {
+          "id": "11:4224826972605163209",
+          "name": "maintenanceTaskItem"
+        },
+        {
+          "id": "12:3799079908434709165",
+          "name": "standardImgPath"
+        },
+        {
+          "id": "13:4599097096649316762",
+          "name": "standardImgUrl"
+        },
+        {
+          "id": "14:4884126407541058457",
+          "name": "standardImgPathLocal"
+        },
+        {
+          "id": "15:7159138581642551176",
+          "name": "imgWork"
+        },
+        {
+          "id": "16:875021035245192225",
+          "name": "imgWorkLocal"
+        },
+        {
+          "id": "17:3189716713859801762",
+          "name": "weight"
+        },
+        {
+          "id": "18:413498478404813713",
+          "name": "step"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "6:1860996433925492205",
+      "lastPropertyId": "9:1227332564517362198",
+      "name": "MaintenanceTaskDb",
+      "properties": [
+        {
+          "id": "1:2754763822169472048",
+          "name": "entityId"
+        },
+        {
+          "id": "2:3047513954015362804",
+          "name": "id"
+        },
+        {
+          "id": "3:5612358737471302682",
+          "name": "codeNum"
+        },
+        {
+          "id": "4:3252241335265397683",
+          "name": "title"
+        },
+        {
+          "id": "5:9124224049798029819",
+          "name": "trainSetType"
+        },
+        {
+          "id": "6:5456493578673309749",
+          "name": "maintenanceLevelCodeNum"
+        },
+        {
+          "id": "7:8819239673654649465",
+          "name": "description"
+        },
+        {
+          "id": "8:2182735406883676502",
+          "name": "sortOrder"
+        },
+        {
+          "id": "9:1227332564517362198",
+          "name": "enabled"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "7:1185099260528475215",
+      "lastPropertyId": "11:7917761519230109832",
+      "name": "MaintenanceWorkItemDb",
+      "properties": [
+        {
+          "id": "1:7413163558602575623",
+          "name": "entityId"
+        },
+        {
+          "id": "2:2464375756501883406",
+          "name": "id"
+        },
+        {
+          "id": "3:4810121702093673186",
+          "name": "codeNum"
+        },
+        {
+          "id": "4:7457390952077362804",
+          "name": "title"
+        },
+        {
+          "id": "5:5166087786129623444",
+          "name": "trainSetType"
+        },
+        {
+          "id": "6:8486325988171063379",
+          "name": "maintenanceLevelCodeNum"
+        },
+        {
+          "id": "7:7157211200045070066",
+          "name": "description"
+        },
+        {
+          "id": "8:674523135211259075",
+          "name": "sortOrder"
+        },
+        {
+          "id": "9:1866119610281316686",
+          "name": "enabled"
+        },
+        {
+          "id": "10:9025829920258180477",
+          "name": "teamsType"
+        },
+        {
+          "id": "11:7917761519230109832",
+          "name": "maintenanceTaskCodeNum"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "7:1185099260528475215",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [
+    2052538556438178930,
+    1625119266453296949
+  ],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [
+    5685964444947813825,
+    2766189836548738019,
+    832867428704842969,
+    5315772805635704221,
+    2240577639584859494,
+    3889506360676056365,
+    6459339985153916251,
+    9055284993988621617,
+    5791922918998618602,
+    2990364853474298831,
+    4784912391905454073,
+    5145773738993744919,
+    3206186971683333019,
+    2655354709126053132,
+    1231271965807384932,
+    3024639893177751888,
+    437098612865248627,
+    1326814514293195790,
+    755537820779952338,
+    4330239535846299553,
+    8162514053182837049,
+    1118540260772346421,
+    6425105458705973598,
+    9122918313736788668,
+    10784771164796392,
+    576255170570379205,
+    7143250568796780970,
+    7127224556955791083,
+    5830022195336232420,
+    9140191506950715155,
+    7178706502828510653,
+    8415819205596642169,
+    2971263963231903245,
+    6672179754852009999,
+    4546246766398005754
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}

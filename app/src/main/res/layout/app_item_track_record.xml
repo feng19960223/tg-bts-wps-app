@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_90"
+        android:background="@mipmap/app_ic_item_bg_blue"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp_10">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/app_ic_station_in"
+                android:gravity="center_vertical"
+                android:padding="@dimen/dp_5"
+                android:text="进站："
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/track_record_arrive_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tv_in"
+                android:layout_alignBottom="@+id/tv_in"
+                android:layout_toEndOf="@+id/tv_in"
+                android:padding="@dimen/dp_5"
+                android:text="12:34:56"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/tv_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/tv_in"
+                android:layout_below="@+id/track_record_arrive_time"
+                android:layout_marginEnd="4dp"
+                android:paddingBottom="@dimen/dp_10"
+                android:paddingTop="@dimen/dp_10"
+                android:text="股道："
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/track_record_track"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tv_start"
+                android:layout_alignBottom="@+id/tv_start"
+                android:layout_toEndOf="@+id/tv_start"
+                android:padding="@dimen/dp_5"
+                android:text="1-1"
+                android:textColor="#FFFFFF" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4">
+
+            <TextView
+                android:id="@+id/query_out_station"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/app_ic_station_out"
+                android:gravity="center_vertical"
+                android:padding="@dimen/dp_5"
+                android:text="出站："
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/track_record_outbound_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/query_out_station"
+                android:layout_alignBottom="@+id/query_out_station"
+                android:layout_toEndOf="@+id/query_out_station"
+                android:padding="@dimen/dp_5"
+                android:text="12:34:56"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/tv_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/query_out_station"
+                android:layout_below="@+id/track_record_outbound_time"
+                android:layout_marginEnd="4dp"
+                android:paddingBottom="@dimen/dp_10"
+                android:paddingTop="@dimen/dp_10"
+                android:text="车号："
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/track_record_train_set_code_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tv_end"
+                android:layout_alignBottom="@+id/tv_end"
+                android:layout_toEndOf="@+id/tv_end"
+                android:padding="@dimen/dp_5"
+                android:text="9527"
+                android:textColor="#FFFFFF" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_8"
+        android:background="#EFF2F4" />
+</LinearLayout>
